@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+div.first {
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+}
+@media (max-width: 48em) {
+  div.second , div.third{
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  }
+}
+@media (min-width: 48.1em) {
+  div.second , div.third{
+    
+    border-bottom-right-radius: 3%;
+  }
+  div.second , div.forth{
+    border-bottom-left-radius: 3%;
+  }
+}
